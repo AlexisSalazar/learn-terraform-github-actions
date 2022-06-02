@@ -5,7 +5,7 @@ terraform {
       version = "4.22.0"
     }
   }
-  required_providers = "~> 1.0"
+  required_version = ""~> 1.0""
 
   backend "remote" {
     organization = "terraform-personal-study"
